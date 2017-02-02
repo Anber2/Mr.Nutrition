@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#Fff</color>
+
+    <!--Drawer Layout-->
+    <color name="colorblack">#000</color>
+    <color name="colorline">#F0F000</color>
+
+    <color name="yellow_theme">#fdc530</color>
+</resources>

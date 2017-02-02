@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_drawer_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/tv_home_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/selector_tv_home_drawable"
+            android:text="@string/home"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_product_cat_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/product_cate"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_brands_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/brands"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_supplements_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/supplements"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_shakers_and_acces_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/shakers_and_acces"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_others_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/others"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_deals_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/deals"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_deals_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_special_offers_drawer"
+                style="@style/drawer_text_view"
+                android:drawableStart="@drawable/ic_action_home"
+                android:text="@string/special_offers"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tv_best_sellers_drawer"
+                style="@style/drawer_text_view"
+                android:drawableStart="@drawable/ic_action_home"
+                android:text="@string/best_sellers"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tv_hot_deals_drawer"
+                style="@style/drawer_text_view"
+                android:drawableStart="@drawable/ic_action_home"
+                android:text="@string/hot_deals_new_arr"
+                tools:ignore="RtlCompat" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_my_account_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/my_account"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_my_cart_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/my_cart"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_wish_list_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/wish_list"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_information_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/info"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_settings_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/settings"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_contact_us_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/contact_us"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_payment_methods_drawer"
+            style="@style/drawer_text_view"
+            android:drawableStart="@drawable/ic_action_home"
+            android:text="@string/payment_methods"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

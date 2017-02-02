@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle"
+            android:thickness="1dip">
+            <padding
+                android:bottom="0.5dip"
+                android:left="1dip"
+                android:right="1dip"
+                android:top="0.5dip" />
+            <corners android:radius="5dip" />
+            <!--    <gradient
+                   android:startColor="#4DF9BE1B"
+                   android:centerColor="#00FFFFFF"
+
+                   android:endColor="#4DF9BE1B"
+                   android:angle="270" /> -->
+            <!-- <gradient
+                android:startColor="#2a2b2f"
+                android:centerColor="#2a2b2f"
+                android:centerY="0.50"
+                android:endColor="#2a2b2f"
+                android:angle="270" /> -->
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape
+                android:shape="rectangle"
+                android:thickness="0dip">
+                <!--   <padding
+                     android:bottom="2dip"
+                     android:top="2dip"
+                     android:left="1dip"
+                     android:right="1dip"/>  -->
+                <corners android:radius="5dip" />
+                <gradient
+                    android:angle="90"
+                    android:endColor="@color/yellow_theme"
+                    android:startColor="@color/yellow_theme" />
+                <!-- <gradient
+                    android:startColor="#ff0e75af"
+                    android:endColor="#ff1997e1"
+                    android:angle="90" /> -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

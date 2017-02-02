@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:context="com.mawaqaa.mrnutrition.activity.MrNutritionMainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/img_btn_appbar_drawer"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_menu" />
+
+
+                <ImageButton
+                    android:id="@+id/img_btn_appbar_search"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/ic_action_search" />
+
+                <ImageButton
+                    android:id="@+id/img_btn_appbar_language"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/img_btn_appbar_search"
+                    android:background="@drawable/ic_language" />
+
+                <ImageButton
+                    android:id="@+id/img_btn_appbar_profile"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/img_btn_appbar_language"
+                    android:background="@drawable/ic_account_box" />
+
+                <TextView
+                    android:id="@+id/tv_app_appbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/ic_action_shield"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="MR.NUTRITION"
+                    android:textColor="@color/colorblack" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+</android.support.design.widget.CoordinatorLayout>
